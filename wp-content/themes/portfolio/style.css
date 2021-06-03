@@ -1,0 +1,220 @@
+/*!
+Theme Name: Portfolio
+Theme URI: http://underscores.me/
+Author: Sabber Hossain
+Author URI: http://www.sabberhossain.com
+Description: Portfolio WordPress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: portfolio
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Portfolio is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+
+.yb-box-fact-count {
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+.yb-my-profile-img {
+	background-color: transparent;
+}
+
+.blog .single-blog:first-child {
+	width: calc(100%*2/3.001);
+}
+
+.blog .single-blog {
+	margin: 15px 0;
+}
+
+
+/* contact css */
+.form-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid #e5e5e5;
+	margin: 15px 0;
+	margin-top: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	border-color:#1e87f0;
+}
+
+.single-group {
+	width: 50%;
+}
+
+.form-group .single-group:first-child {
+	padding-right: 10px;
+}
+
+.form-group .single-group:nth-child(2) {
+	padding-left: 10px;
+}
+
+.contact-form input[type=submit] {
+	width: auto;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0;
+	cursor: pointer;
+	background-color: #1e87f0;
+	border-color: transparent;
+	text-transform: none;
+	font-weight: 700;
+	border-radius: 3px;
+	min-width: 180px;
+	padding: 0 40px;
+	line-height: 53px;
+	color: #fff;
+	transition: .3s;
+}
+
+.contact-form input[type=submit]:hover {
+	background-color: #0F7AE5;
+}
+
+.contact-form input[type=radio] {
+	width: auto;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.form-select span.wpcf7-list-item.first {
+	padding: 0;
+	margin: 0;
+}
+
+.form-select {
+	margin-bottom: 15px;
+}
+
+.yb-footer-social a:hover {
+	text-decoration: underline;
+	color: #ddd;
+}
+
+.yb-totop {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #1e87f0;
+	top: -60px;
+	right: 20px;
+	text-align: center;
+	z-index: 20;
+	color: #fff;
+	border-radius: 50%;
+	padding-top: 18px;
+	transition: .3s;
+	transform: scale(0.7);
+}
+
+.yb-totop:hover,
+.yb-totop:focus {
+	color: #fff;
+	background-color: #000;
+	transform: scale(1);
+}
+
+.form-select span {
+	padding-top: 5px;
+}
+
+.yb-profile-desc h1 {
+	font-size: 80px;
+	background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	letter-spacing: -4px;
+}
+
+@media (max-width: 959px) {
+	.yb-menu-toggle-wrapper .uk-navbar-center {
+	position: relative;
+	transform: none;
+	left: 0;
+	top: 0;
+	width: 100%;
+	}
+}
+
+@media (max-width: 959px) {
+	.yb-profile-desc h1 {
+		font-size: 50px;
+	}
+}
+
+.yb-work-item-img img {
+	object-fit: cover;
+}
+
+.yb-box-service img {
+	width: 40px;
+}
+
+#skills .yb-bg-soft:nth-child(2), 
+#skills .yb-bg-soft:nth-child(4), 
+#skills .yb-bg-soft:nth-child(5), 
+#skills .yb-bg-soft:nth-child(7) {
+	background-color: #fff
+}
+
+.yb-work-item-img img {
+	max-height: 574px;
+}
