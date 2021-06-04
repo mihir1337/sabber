@@ -45,7 +45,7 @@ $social_icons = cs_get_option('social_icons');
           <div class="uk-container">
             <div class="yb-section-point">
               <sup>01</sup>
-              <span>welcome</span>
+              <span>welcome </span>
             </div>
           </div>
         </div>
