@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------------------------------
 // ===============================================================================================
 $settings           = array(
-  'menu_title'      => 'Theme Options',
+  'menu_title'      => 'Theme Settings',
   'menu_type'       => 'menu', // menu, submenu, options, theme, etc.
   'menu_slug'       => 'cs-framework-options',
   'ajax_save'       => false,
